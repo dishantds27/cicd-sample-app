@@ -1,11 +1,12 @@
 #!/bin/bash
 set -euo pipefail
 
-mkdir tempdir
-mkdir tempdir/templates
-mkdir tempdir/static
+#mkdir tempdir
+#mkdir tempdir/templates
+#mkdir tempdir/static
 
-cp sample_app.py tempdir/.
+#cp sample_app.py tempdir/.
+cp /vagrant/cicd-sample-app/sample_app.py tempdir/.
 cp -r templates/* tempdir/templates/.
 cp -r static/* tempdir/static/.
 
