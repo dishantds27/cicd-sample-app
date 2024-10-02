@@ -1,3 +1,4 @@
+#
 node {
     stage('Preparation') {
         catchError(buildResult: 'SUCCESS') {
